@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T12:27:50.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.21" etag="v0PYVqGlnNAH8IgSAE5j" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T15:25:08.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="R8knVvweJqLMwqgqLUpZ" version="22.1.21" type="github">
   <diagram name="Seite-1" id="YvIIDkltpzDu5RlnCBpo">
-    <mxGraphModel>
+    <mxGraphModel dx="2037" dy="-36" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-1" value="MicroVPP" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1430" width="1280" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GIrpE-bIgu7VbKGYVEwn-2" target="GIrpE-bIgu7VbKGYVEwn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-2" value="Connector" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1390" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-6" value="switch-service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-8" value="timeseries-service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-9" value="modbustcp-service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1590" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-10" value="Kafka" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1800" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-12" value="Telegraf" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="1500" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-13" value="Akhq" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1720" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-15" value="iee-emulator-pv" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1250" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1670" y="1490" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-11" value="Kafka" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="GIrpE-bIgu7VbKGYVEwn-19">
+          <mxGeometry width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-16" value="Event Topic: Values.ValuesReceivedEvent" style="html=1;whiteSpace=wrap;" vertex="1" parent="GIrpE-bIgu7VbKGYVEwn-19">
+          <mxGeometry x="20" y="44" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-17" value="Event Topic:Values.ValuesSendEvent" style="html=1;whiteSpace=wrap;" vertex="1" parent="GIrpE-bIgu7VbKGYVEwn-19">
+          <mxGeometry x="20" y="80" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GIrpE-bIgu7VbKGYVEwn-18" value="Event Topic: Facilities" style="html=1;whiteSpace=wrap;" vertex="1" parent="GIrpE-bIgu7VbKGYVEwn-19">
+          <mxGeometry x="20" y="120" width="300" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
